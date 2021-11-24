@@ -10,4 +10,4 @@
 <p align="center"><a href="https://kianejad.github.io/weather/">----- Click To View Demo -----</a></p>
 <h2></h2>
 <p>Screenshot : </p>
-<img src="https://github.com/kianejad/To-Do-List/blob/master/screen-shot-todoList.png">
+<img src="https://github.com/kianejad/weather/blob/master/screen-shot-weather%20.png">

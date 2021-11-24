@@ -1,0 +1,74 @@
+body {
+    background-image: url(./../img/image-back1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.darkMoodBack {
+    background-image: url(./../img/image-back2.jpg);
+    background-size: cover;
+}
+
+/*  */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 1.54rem;
+    position: relative;
+    width: 3rem;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    background-color: rgb(20, 20, 20);
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: rgb(137, 137, 138);
+    bottom: 4px;
+    content: "";
+    height: 1rem;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 1rem;
+}
+
+input:checked + .slider {
+    background-color: #f2f2f2;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 0.5rem;
+}
+
+.slider.round:before {
+    border-radius: 0.5rem;
+}
+
+/* img Dark mood */
+.display-b {
+    display: block;
+}
+
+.display-n {
+    display: none;
+}
